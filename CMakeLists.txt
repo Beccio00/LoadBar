@@ -8,8 +8,7 @@ add_subdirectory(test)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set (CMAKE_PREFIX_PATH "/usr/lib/qt5/bin")
 
-set (CMAKE_AUTOMOC  ON)
-
+set (CMAKE_AUTOMOC ON)
 
 find_package(Qt5Widgets REQUIRED)
 
