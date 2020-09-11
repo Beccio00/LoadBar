@@ -12,7 +12,7 @@ set (CMAKE_AUTOMOC ON)
 
 find_package(Qt5Widgets REQUIRED)
 
-set(SOURCE_FILES main.cpp Subject.h Observer.h  File.h LoadFiles.cpp LoadFiles.h Window.cpp Window.h)
+set(SOURCE_FILES main.cpp Subject.h Observer.h  File.h LoadFiles.cpp LoadFiles.h Window.cpp Window.h ConcreteObserver.h)
 add_executable(LabProject main.cpp)
 add_library(core ${SOURCE_FILES})
 target_link_libraries(core Qt5::Widgets)

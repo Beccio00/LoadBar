@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestConcreteObserver.cpp" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test/CMakeFiles/runAllTest.dir/TestConcreteObserver.cpp.o"
   "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestFile.cpp" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test/CMakeFiles/runAllTest.dir/TestFile.cpp.o"
   "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestLoadFiles.cpp" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o"
   "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestWindow.cpp" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test/CMakeFiles/runAllTest.dir/TestWindow.cpp.o"

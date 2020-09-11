@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/runAllTest.dir/TestConcreteObserver.cpp.o"
   "CMakeFiles/runAllTest.dir/TestFile.cpp.o"
   "CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o"
   "CMakeFiles/runAllTest.dir/TestWindow.cpp.o"

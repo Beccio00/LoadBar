@@ -26,7 +26,7 @@ TEST(TestObserver, testFileSize) {
     Window observer(&loader);
 
     std::vector<QString> vector;
-    vector.push_back("../files/Cat.jpg");
+    vector.push_back("files/Cat.jpg");
     loader.load(vector);
 
     ASSERT_EQ(observer.getFiles()->getSize(), 27574);
@@ -38,7 +38,7 @@ TEST(TestObserver, testLoaded) {
     Window observer(&loader);
 
     std::vector<QString> vector;
-    vector.push_back("../files/Cat.jpg");
+    vector.push_back("/files/Cat.jpg");
     loader.load(vector);
 
     ASSERT_EQ(observer.getFiles()->isLoaded(), true);

@@ -242,6 +242,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/ConcreteObserver.h">
+			<Option target="core"/>
+		</Unit>
 		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h">
 			<Option target="core"/>
 		</Unit>
@@ -272,6 +275,9 @@
 		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/main.cpp">
 			<Option target="core"/>
 			<Option target="LabProject"/>
+		</Unit>
+		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestConcreteObserver.cpp">
+			<Option target="runAllTest"/>
 		</Unit>
 		<Unit filename="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestFile.cpp">
 			<Option target="runAllTest"/>

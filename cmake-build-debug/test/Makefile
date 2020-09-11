@@ -145,6 +145,33 @@ runAllTest/fast:
 	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/build
 .PHONY : runAllTest/fast
 
+TestConcreteObserver.o: TestConcreteObserver.cpp.o
+
+.PHONY : TestConcreteObserver.o
+
+# target to build an object file
+TestConcreteObserver.cpp.o:
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestConcreteObserver.cpp.o
+.PHONY : TestConcreteObserver.cpp.o
+
+TestConcreteObserver.i: TestConcreteObserver.cpp.i
+
+.PHONY : TestConcreteObserver.i
+
+# target to preprocess a source file
+TestConcreteObserver.cpp.i:
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestConcreteObserver.cpp.i
+.PHONY : TestConcreteObserver.cpp.i
+
+TestConcreteObserver.s: TestConcreteObserver.cpp.s
+
+.PHONY : TestConcreteObserver.s
+
+# target to generate assembly for a file
+TestConcreteObserver.cpp.s:
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestConcreteObserver.cpp.s
+.PHONY : TestConcreteObserver.cpp.s
+
 TestFile.o: TestFile.cpp.o
 
 .PHONY : TestFile.o
@@ -262,6 +289,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... runAllTest"
+	@echo "... TestConcreteObserver.o"
+	@echo "... TestConcreteObserver.i"
+	@echo "... TestConcreteObserver.s"
 	@echo "... TestFile.o"
 	@echo "... TestFile.i"
 	@echo "... TestFile.s"

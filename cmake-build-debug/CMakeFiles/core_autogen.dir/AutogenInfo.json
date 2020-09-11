@@ -10,6 +10,11 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/ConcreteObserver.h",
+			"Mu",
+			"EWIEGA46WW/moc_ConcreteObserver.cpp"
+		],
+		[
 			"/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h",
 			"Mu",
 			"EWIEGA46WW/moc_File.cpp"
