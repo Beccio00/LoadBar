@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g   CMakeFiles/runAllTest.cpp.dir/runAllTest.cpp.o CMakeFiles/runAllTest.cpp.dir/TestFile.cpp.o CMakeFiles/runAllTest.cpp.dir/TestLoadFiles.cpp.o CMakeFiles/runAllTest.cpp.dir/TestWindow.cpp.o  -o runAllTest.cpp 

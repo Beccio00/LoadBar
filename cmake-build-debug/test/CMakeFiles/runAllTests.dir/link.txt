@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/runAllTests.dir/runAllTest.cpp.o CMakeFiles/runAllTests.dir/TestWindow.cpp.o CMakeFiles/runAllTests.dir/TestFile.cpp.o CMakeFiles/runAllTests.dir/TestLoadFiles.cpp.o  -o runAllTests  /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libgtest_main.acore 

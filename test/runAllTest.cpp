@@ -1,0 +1,16 @@
+//
+// Created by Riccardo Becciolini on 28/08/20.
+//
+
+#include <QtWidgets/QApplication>
+#include "gtest/gtest.h"
+
+
+
+int main(int argc, char** argv) {
+
+    QApplication app(argc, argv);
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+}
+

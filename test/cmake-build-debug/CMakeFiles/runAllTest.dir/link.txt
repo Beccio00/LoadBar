@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/runAllTest.dir/runAllTest.cpp.o CMakeFiles/runAllTest.dir/TestFile.cpp.o CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o CMakeFiles/runAllTest.dir/TestWindow.cpp.o  -o runAllTest  /usr/lib/x86_64-linux-gnu/libgtest.a /usr/lib/x86_64-linux-gnu/libgtest_main.a -lcore -lpthread 

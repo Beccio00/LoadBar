@@ -1,0 +1,3 @@
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/cmake-build-debug/CMakeFiles/runAllTest.dir
