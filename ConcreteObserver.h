@@ -1,0 +1,8 @@
+//
+// Created by Riccardo Becciolini on 11/09/20.
+//
+
+#ifndef LABPROJECT_CONCRETEOBSERVER_H
+#define LABPROJECT_CONCRETEOBSERVER_H
+
+#endif //LABPROJECT_CONCRETEOBSERVER_H
