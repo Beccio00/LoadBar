@@ -20,7 +20,7 @@ void LoadFiles::notify() const {
 }
 
 
-void LoadFiles::load(std::vector<const char *> filenames) {
+void LoadFiles::load(std::vector<QString> filenames) {
 
     numberFile = static_cast<int>(filenames.size());
 
@@ -35,7 +35,7 @@ void LoadFiles::load(std::vector<const char *> filenames) {
 
 void LoadFiles::loadVector() {
 
-    std::vector<const char*> filenames;
+    std::vector<QString> filenames;
 
     filenames.push_back("files/Lion.jpg");
     filenames.push_back("files/House.avi");

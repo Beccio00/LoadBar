@@ -10,6 +10,7 @@
 #include <string>
 #include <QtCore/QString>
 #include <vector>
+#include <iostream>
 
 class LoadFiles : public Subject{
 public:
@@ -22,7 +23,7 @@ public:
 
     void notify() const override;
 
-    void load(std::vector<const char*> filenames);
+    void load(std::vector<QString> filenames);
 
     void loadVector();
 

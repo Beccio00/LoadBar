@@ -13,7 +13,7 @@ TEST(TestObserver, testFileName) {
     LoadFiles loader;
     Window observer(&loader);
 
-    std::vector<const char*> vector;
+    std::vector<QString> vector;
     vector.push_back("file.h");
     loader.load(vector);
 
@@ -25,7 +25,7 @@ TEST(TestObserver, testFileSize) {
     LoadFiles loader;
     Window observer(&loader);
 
-    std::vector<const char*> vector;
+    std::vector<QString> vector;
     vector.push_back("../files/Cat.jpg");
     loader.load(vector);
 
@@ -37,7 +37,7 @@ TEST(TestObserver, testLoaded) {
     LoadFiles loader;
     Window observer(&loader);
 
-    std::vector<const char*> vector;
+    std::vector<QString> vector;
     vector.push_back("../files/Cat.jpg");
     loader.load(vector);
 

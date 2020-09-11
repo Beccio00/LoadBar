@@ -12,7 +12,7 @@ class File {
 public:
     explicit File(QString fN):filename(fN), fsize(random()), uploaded(true)  {};
 
-    ~File() {};
+    ~File() {}
 
     int getFileSize() const {
         return abs(fsize);

@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/File.h
-iostream
--
-QtCore/QString
--
-
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/LoadFiles.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
 Subject.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/Subject.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Subject.h
 list
 -
 string
@@ -23,48 +17,32 @@ QtCore/QString
 -
 vector
 -
+iostream
+-
 
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/Observer.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
 
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/Subject.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Subject.h
 Observer.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/Observer.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
 
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/Window.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Window.h
 LoadFiles.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/LoadFiles.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
 QtWidgets
 -
 iostream
 -
 Observer.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/Observer.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
 
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestFile.cpp
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestWindow.cpp
 gtest/gtest.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/gtest/gtest.h
-../File.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/File.h
-
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestLoadFiles.cpp
-gtest/gtest.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/gtest/gtest.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/gtest/gtest.h
 ../LoadFiles.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/LoadFiles.h
-
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestWindow.cpp
-gtest/gtest.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/gtest/gtest.h
-../LoadFiles.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/LoadFiles.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
 ../Window.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/Window.h
-
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/runAllTest.cpp
-QtWidgets/QApplication
--
-gtest/gtest.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/gtest/gtest.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Window.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
 qcoreevent.h
@@ -3451,10 +3429,6 @@ QtGui/qwindowdefs_win.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
-qapplication.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCommonStyle
 qcommonstyle.h
