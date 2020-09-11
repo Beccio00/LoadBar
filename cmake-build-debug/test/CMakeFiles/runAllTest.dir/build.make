@@ -63,10 +63,10 @@ RM = /home/beccio/Programm/clion-2019.3.5/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject"
+CMAKE_SOURCE_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/runAllTest.dir/depend.make
@@ -79,55 +79,55 @@ include test/CMakeFiles/runAllTest.dir/flags.make
 
 test/CMakeFiles/runAllTest.dir/runAllTest.cpp.o: test/CMakeFiles/runAllTest.dir/flags.make
 test/CMakeFiles/runAllTest.dir/runAllTest.cpp.o: ../test/runAllTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/runAllTest.dir/runAllTest.cpp.o"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTest.dir/runAllTest.cpp.o -c "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/runAllTest.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/runAllTest.dir/runAllTest.cpp.o"
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTest.dir/runAllTest.cpp.o -c "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/runAllTest.cpp"
 
 test/CMakeFiles/runAllTest.dir/runAllTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTest.dir/runAllTest.cpp.i"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/runAllTest.cpp" > CMakeFiles/runAllTest.dir/runAllTest.cpp.i
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/runAllTest.cpp" > CMakeFiles/runAllTest.dir/runAllTest.cpp.i
 
 test/CMakeFiles/runAllTest.dir/runAllTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTest.dir/runAllTest.cpp.s"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/runAllTest.cpp" -o CMakeFiles/runAllTest.dir/runAllTest.cpp.s
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/runAllTest.cpp" -o CMakeFiles/runAllTest.dir/runAllTest.cpp.s
 
 test/CMakeFiles/runAllTest.dir/TestFile.cpp.o: test/CMakeFiles/runAllTest.dir/flags.make
 test/CMakeFiles/runAllTest.dir/TestFile.cpp.o: ../test/TestFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runAllTest.dir/TestFile.cpp.o"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTest.dir/TestFile.cpp.o -c "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestFile.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/runAllTest.dir/TestFile.cpp.o"
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTest.dir/TestFile.cpp.o -c "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestFile.cpp"
 
 test/CMakeFiles/runAllTest.dir/TestFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTest.dir/TestFile.cpp.i"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestFile.cpp" > CMakeFiles/runAllTest.dir/TestFile.cpp.i
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestFile.cpp" > CMakeFiles/runAllTest.dir/TestFile.cpp.i
 
 test/CMakeFiles/runAllTest.dir/TestFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTest.dir/TestFile.cpp.s"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestFile.cpp" -o CMakeFiles/runAllTest.dir/TestFile.cpp.s
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestFile.cpp" -o CMakeFiles/runAllTest.dir/TestFile.cpp.s
 
 test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o: test/CMakeFiles/runAllTest.dir/flags.make
 test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o: ../test/TestLoadFiles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o -c "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestLoadFiles.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o"
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o -c "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestLoadFiles.cpp"
 
 test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.i"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestLoadFiles.cpp" > CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.i
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestLoadFiles.cpp" > CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.i
 
 test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.s"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestLoadFiles.cpp" -o CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.s
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestLoadFiles.cpp" -o CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.s
 
 test/CMakeFiles/runAllTest.dir/TestWindow.cpp.o: test/CMakeFiles/runAllTest.dir/flags.make
 test/CMakeFiles/runAllTest.dir/TestWindow.cpp.o: ../test/TestWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/runAllTest.dir/TestWindow.cpp.o"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTest.dir/TestWindow.cpp.o -c "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestWindow.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object test/CMakeFiles/runAllTest.dir/TestWindow.cpp.o"
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runAllTest.dir/TestWindow.cpp.o -c "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestWindow.cpp"
 
 test/CMakeFiles/runAllTest.dir/TestWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runAllTest.dir/TestWindow.cpp.i"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestWindow.cpp" > CMakeFiles/runAllTest.dir/TestWindow.cpp.i
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestWindow.cpp" > CMakeFiles/runAllTest.dir/TestWindow.cpp.i
 
 test/CMakeFiles/runAllTest.dir/TestWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runAllTest.dir/TestWindow.cpp.s"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test/TestWindow.cpp" -o CMakeFiles/runAllTest.dir/TestWindow.cpp.s
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestWindow.cpp" -o CMakeFiles/runAllTest.dir/TestWindow.cpp.s
 
 # Object files for target runAllTest
 runAllTest_OBJECTS = \
@@ -151,8 +151,8 @@ test/runAllTest: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 test/runAllTest: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 test/runAllTest: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 test/runAllTest: test/CMakeFiles/runAllTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable runAllTest"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runAllTest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable runAllTest"
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runAllTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/runAllTest.dir/build: test/runAllTest
@@ -160,10 +160,10 @@ test/CMakeFiles/runAllTest.dir/build: test/runAllTest
 .PHONY : test/CMakeFiles/runAllTest.dir/build
 
 test/CMakeFiles/runAllTest.dir/clean:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" && $(CMAKE_COMMAND) -P CMakeFiles/runAllTest.dir/cmake_clean.cmake
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" && $(CMAKE_COMMAND) -P CMakeFiles/runAllTest.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/runAllTest.dir/clean
 
 test/CMakeFiles/runAllTest.dir/depend:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/test" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test/CMakeFiles/runAllTest.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test/CMakeFiles/runAllTest.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : test/CMakeFiles/runAllTest.dir/depend
 

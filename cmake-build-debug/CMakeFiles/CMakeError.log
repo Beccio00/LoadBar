@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a30ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_a30ac.dir/build.make CMakeFiles/cmTC_a30ac.dir/build
-make[1]: ingresso nella directory «/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_a30ac.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a30ac.dir/src.c.o   -c "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp/src.c"
-Linking C executable cmTC_a30ac
-/home/beccio/Programm/clion-2019.3.5/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a30ac.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_a30ac.dir/src.c.o  -o cmTC_a30ac 
-/usr/bin/ld: CMakeFiles/cmTC_a30ac.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_5da6a/fast && /usr/bin/make  -f CMakeFiles/cmTC_5da6a.dir/build.make CMakeFiles/cmTC_5da6a.dir/build
+make[1]: ingresso nella directory «/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_5da6a.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5da6a.dir/src.c.o   -c "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_5da6a
+/home/beccio/Programm/clion-2019.3.5/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5da6a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_5da6a.dir/src.c.o  -o cmTC_5da6a 
+/usr/bin/ld: CMakeFiles/cmTC_5da6a.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
 /usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_a30ac.dir/build.make:107: cmTC_a30ac] Errore 1
-make[1]: uscita dalla directory «/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp»
-make: *** [Makefile:141: cmTC_a30ac/fast] Errore 2
+make[1]: *** [CMakeFiles/cmTC_5da6a.dir/build.make:107: cmTC_5da6a] Errore 1
+make[1]: uscita dalla directory «/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp»
+make: *** [Makefile:141: cmTC_5da6a/fast] Errore 2
 
 
 Source file was:
@@ -41,20 +41,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_54010/fast && /usr/bin/make  -f CMakeFiles/cmTC_54010.dir/build.make CMakeFiles/cmTC_54010.dir/build
-make[1]: ingresso nella directory «/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_54010.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_54010.dir/CheckFunctionExists.c.o   -c /home/beccio/Programm/clion-2019.3.5/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
-Linking C executable cmTC_54010
-/home/beccio/Programm/clion-2019.3.5/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54010.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_54010.dir/CheckFunctionExists.c.o  -o cmTC_54010  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_e68b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_e68b4.dir/build.make CMakeFiles/cmTC_e68b4.dir/build
+make[1]: ingresso nella directory «/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_e68b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e68b4.dir/CheckFunctionExists.c.o   -c /home/beccio/Programm/clion-2019.3.5/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e68b4
+/home/beccio/Programm/clion-2019.3.5/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e68b4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e68b4.dir/CheckFunctionExists.c.o  -o cmTC_e68b4  -lpthreads 
 /usr/bin/ld: impossibile trovare -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_54010.dir/build.make:107: cmTC_54010] Errore 1
-make[1]: uscita dalla directory «/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp»
-make: *** [Makefile:141: cmTC_54010/fast] Errore 2
+make[1]: *** [CMakeFiles/cmTC_e68b4.dir/build.make:107: cmTC_e68b4] Errore 1
+make[1]: uscita dalla directory «/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles/CMakeTmp»
+make: *** [Makefile:141: cmTC_e68b4/fast] Errore 2
 
 
 

@@ -64,10 +64,10 @@ RM = /home/beccio/Programm/clion-2019.3.5/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject"
+CMAKE_SOURCE_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -118,14 +118,14 @@ test/clean: test/CMakeFiles/runAllTest.dir/clean
 CMakeFiles/core.dir/all: CMakeFiles/core_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core.dir/build.make CMakeFiles/core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" --progress-num=5,6,7,8,9 "Built target core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" --progress-num=5,6,7,8,9 "Built target core"
 .PHONY : CMakeFiles/core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/core.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/core.dir/rule
 
 # Convenience name for target.
@@ -146,14 +146,14 @@ CMakeFiles/LabProject.dir/all: CMakeFiles/core.dir/all
 CMakeFiles/LabProject.dir/all: CMakeFiles/LabProject_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LabProject.dir/build.make CMakeFiles/LabProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LabProject.dir/build.make CMakeFiles/LabProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target LabProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target LabProject"
 .PHONY : CMakeFiles/LabProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LabProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 10
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LabProject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/LabProject.dir/rule
 
 # Convenience name for target.
@@ -173,14 +173,14 @@ CMakeFiles/LabProject.dir/clean:
 CMakeFiles/core_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_autogen.dir/build.make CMakeFiles/core_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/core_autogen.dir/build.make CMakeFiles/core_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" --progress-num=10 "Built target core_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" --progress-num=10 "Built target core_autogen"
 .PHONY : CMakeFiles/core_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/core_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/core_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/core_autogen.dir/rule
 
 # Convenience name for target.
@@ -200,14 +200,14 @@ CMakeFiles/core_autogen.dir/clean:
 CMakeFiles/LabProject_autogen.dir/all: CMakeFiles/core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LabProject_autogen.dir/build.make CMakeFiles/LabProject_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LabProject_autogen.dir/build.make CMakeFiles/LabProject_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" --progress-num=4 "Built target LabProject_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" --progress-num=4 "Built target LabProject_autogen"
 .PHONY : CMakeFiles/LabProject_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LabProject_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 7
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LabProject_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/LabProject_autogen.dir/rule
 
 # Convenience name for target.
@@ -227,14 +227,14 @@ CMakeFiles/LabProject_autogen.dir/clean:
 test/CMakeFiles/runAllTest.dir/all: CMakeFiles/core.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" --progress-num=11,12,13,14,15 "Built target runAllTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" --progress-num=11,12,13,14,15 "Built target runAllTest"
 .PHONY : test/CMakeFiles/runAllTest.dir/all
 
 # Build rule for subdir invocation for target.
 test/CMakeFiles/runAllTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/runAllTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 0
 .PHONY : test/CMakeFiles/runAllTest.dir/rule
 
 # Convenience name for target.

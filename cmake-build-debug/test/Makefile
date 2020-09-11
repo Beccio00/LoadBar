@@ -68,10 +68,10 @@ RM = /home/beccio/Programm/clion-2019.3.5/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject"
+CMAKE_SOURCE_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/test/CMakeFiles/progress.marks"
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug/CMakeFiles" 0
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/test/CMakeFiles/progress.marks"
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/runAllTest.dir/rule:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/runAllTest.dir/rule
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/runAllTest.dir/rule
 .PHONY : test/CMakeFiles/runAllTest.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ runAllTest: test/CMakeFiles/runAllTest.dir/rule
 
 # fast build rule for target.
 runAllTest/fast:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/build
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/build
 .PHONY : runAllTest/fast
 
 TestFile.o: TestFile.cpp.o
@@ -151,7 +151,7 @@ TestFile.o: TestFile.cpp.o
 
 # target to build an object file
 TestFile.cpp.o:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestFile.cpp.o
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestFile.cpp.o
 .PHONY : TestFile.cpp.o
 
 TestFile.i: TestFile.cpp.i
@@ -160,7 +160,7 @@ TestFile.i: TestFile.cpp.i
 
 # target to preprocess a source file
 TestFile.cpp.i:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestFile.cpp.i
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestFile.cpp.i
 .PHONY : TestFile.cpp.i
 
 TestFile.s: TestFile.cpp.s
@@ -169,7 +169,7 @@ TestFile.s: TestFile.cpp.s
 
 # target to generate assembly for a file
 TestFile.cpp.s:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestFile.cpp.s
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestFile.cpp.s
 .PHONY : TestFile.cpp.s
 
 TestLoadFiles.o: TestLoadFiles.cpp.o
@@ -178,7 +178,7 @@ TestLoadFiles.o: TestLoadFiles.cpp.o
 
 # target to build an object file
 TestLoadFiles.cpp.o:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.o
 .PHONY : TestLoadFiles.cpp.o
 
 TestLoadFiles.i: TestLoadFiles.cpp.i
@@ -187,7 +187,7 @@ TestLoadFiles.i: TestLoadFiles.cpp.i
 
 # target to preprocess a source file
 TestLoadFiles.cpp.i:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.i
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.i
 .PHONY : TestLoadFiles.cpp.i
 
 TestLoadFiles.s: TestLoadFiles.cpp.s
@@ -196,7 +196,7 @@ TestLoadFiles.s: TestLoadFiles.cpp.s
 
 # target to generate assembly for a file
 TestLoadFiles.cpp.s:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.s
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestLoadFiles.cpp.s
 .PHONY : TestLoadFiles.cpp.s
 
 TestWindow.o: TestWindow.cpp.o
@@ -205,7 +205,7 @@ TestWindow.o: TestWindow.cpp.o
 
 # target to build an object file
 TestWindow.cpp.o:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestWindow.cpp.o
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestWindow.cpp.o
 .PHONY : TestWindow.cpp.o
 
 TestWindow.i: TestWindow.cpp.i
@@ -214,7 +214,7 @@ TestWindow.i: TestWindow.cpp.i
 
 # target to preprocess a source file
 TestWindow.cpp.i:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestWindow.cpp.i
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestWindow.cpp.i
 .PHONY : TestWindow.cpp.i
 
 TestWindow.s: TestWindow.cpp.s
@@ -223,7 +223,7 @@ TestWindow.s: TestWindow.cpp.s
 
 # target to generate assembly for a file
 TestWindow.cpp.s:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestWindow.cpp.s
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/TestWindow.cpp.s
 .PHONY : TestWindow.cpp.s
 
 runAllTest.o: runAllTest.cpp.o
@@ -232,7 +232,7 @@ runAllTest.o: runAllTest.cpp.o
 
 # target to build an object file
 runAllTest.cpp.o:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/runAllTest.cpp.o
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/runAllTest.cpp.o
 .PHONY : runAllTest.cpp.o
 
 runAllTest.i: runAllTest.cpp.i
@@ -241,7 +241,7 @@ runAllTest.i: runAllTest.cpp.i
 
 # target to preprocess a source file
 runAllTest.cpp.i:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/runAllTest.cpp.i
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/runAllTest.cpp.i
 .PHONY : runAllTest.cpp.i
 
 runAllTest.s: runAllTest.cpp.s
@@ -250,7 +250,7 @@ runAllTest.s: runAllTest.cpp.s
 
 # target to generate assembly for a file
 runAllTest.cpp.s:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/runAllTest.cpp.s
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/runAllTest.dir/build.make test/CMakeFiles/runAllTest.dir/runAllTest.cpp.s
 .PHONY : runAllTest.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/LabProject/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
