@@ -83,7 +83,7 @@ void Window::loadFiles() {
 
     text->setText("... Caricamento in corso ...\n\n\n");
 
-    files->loadVector();
+    files->load();
 
 }
 

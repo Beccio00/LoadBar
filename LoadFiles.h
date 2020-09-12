@@ -15,7 +15,7 @@
 class LoadFiles : public Subject{
 public:
 
-    LoadFiles() {}
+    explicit LoadFiles(std::vector<QString> f) : filenames(f) {}
 
     void subscribe(Observer *o) override;
 
@@ -23,9 +23,7 @@ public:
 
     void notify() const override;
 
-    void load(std::vector<QString> filenames);
-
-    void loadVector();
+    void load();
 
     int getSize() const {
         return size;
@@ -46,6 +44,8 @@ public:
 
 private:
     std::list<Observer*> observers;
+
+    std::vector<QString> filenames;
 
     int size;
     bool loaded;
