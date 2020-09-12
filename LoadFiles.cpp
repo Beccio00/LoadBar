@@ -14,7 +14,7 @@ void LoadFiles::unsubscribe(Observer *o) {
 }
 
 void LoadFiles::notify() const {
-    for(const auto itr : observers) {
+    for(auto itr : observers) {
         itr->update();
     }
 }
@@ -22,9 +22,9 @@ void LoadFiles::notify() const {
 
 void LoadFiles::load() {
 
-    numberFile = static_cast<int>(filenames.size());
+    numberFile = static_cast<int>(vector.size());
 
-    for (auto itr : filenames) {
+    for (auto itr : vector) {
         File file(itr);
         fileName = file.getFilename();
         size = file.getFileSize();

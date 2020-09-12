@@ -11,11 +11,12 @@
 #include <QtCore/QString>
 #include <vector>
 #include <iostream>
+#include "File.h"
 
 class LoadFiles : public Subject{
 public:
 
-    explicit LoadFiles(std::vector<QString> f) : filenames(f) {}
+    explicit LoadFiles(std::vector<QString> v) : vector(v) {}
 
     void subscribe(Observer *o) override;
 
@@ -42,10 +43,14 @@ public:
         return fileName;
     }
 
+    const std::vector<QString> &getVector() const {
+        return vector;
+    }
+
 private:
     std::list<Observer*> observers;
 
-    std::vector<QString> filenames;
+    std::vector<QString> vector;
 
     int size;
     bool loaded;

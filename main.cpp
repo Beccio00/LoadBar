@@ -1,12 +1,15 @@
 #include "LoadFiles.h"
 #include "Window.h"
 #include <QApplication>
+#include "File.h"
 
 int main(int argc, char *argv[]) {
 
     QApplication app(argc, argv);
 
     std::vector<QString> v;
+
+
     v.push_back("files/Lion.jpg");
     v.push_back("files/House.avi");
     v.push_back("files/Bottle.jpg");

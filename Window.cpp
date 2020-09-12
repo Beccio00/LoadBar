@@ -58,14 +58,13 @@ void Window::update() {
         //Aggiorna progess bar
         while (progressBar->value() < 1000) {
             progressBar->setValue(progressBar->value() + (10 / files->getNumberFile()));
-            usleep(5000);
+            usleep(1000);
         }
-
-
         //Aggiorna text
         QString log = "✅ File caricato '" + QString(files->getFileName()) + QString("' con successo (") +
-                QString::number(files->getSize()) + QString(" bytes).") + "\n";
+                      QString::number(files->getSize()) + QString(" bytes).") + "\n";
         text->append(log);
+
 
         //Aggiorna text di button
         QString percentText = QString::number(progressBar->value() / 10) + QString("%  files caricate!");
