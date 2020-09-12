@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/ConcreteObserver.h
+Observer.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
+LoadFiles.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
+iostream
+-
+
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h
+iostream
+-
+QtCore/QString
+-
+
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
 Subject.h
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Subject.h
@@ -19,6 +33,8 @@ vector
 -
 iostream
 -
+File.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h
 
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
 
@@ -35,6 +51,18 @@ iostream
 -
 Observer.h
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
+
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestConcreteObserver.cpp
+../ConcreteObserver.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/ConcreteObserver.h
+gtest/gtest.h
+-
+
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestLoadFiles.cpp
+gtest/gtest.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/gtest/gtest.h
+../LoadFiles.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
 
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/test/TestWindow.cpp
 gtest/gtest.h

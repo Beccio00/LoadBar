@@ -40,6 +40,7 @@ CMakeFiles/core.dir/LoadFiles.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 CMakeFiles/core.dir/Window.cpp.o
+ /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h
  /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
  /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
  /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Subject.h
@@ -506,6 +507,7 @@ CMakeFiles/core.dir/Window.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o
+ /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h
  /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
  /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
  /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Subject.h
@@ -973,6 +975,7 @@ CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 CMakeFiles/core.dir/main.cpp.o
+ /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h
  /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
  /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
  /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Subject.h

@@ -39,6 +39,7 @@ CMakeFiles/core.dir/LoadFiles.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qt
 CMakeFiles/core.dir/LoadFiles.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
 CMakeFiles/core.dir/LoadFiles.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
 
+CMakeFiles/core.dir/Window.cpp.o: ../File.h
 CMakeFiles/core.dir/Window.cpp.o: ../LoadFiles.h
 CMakeFiles/core.dir/Window.cpp.o: ../Observer.h
 CMakeFiles/core.dir/Window.cpp.o: ../Subject.h
@@ -505,6 +506,7 @@ CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qw
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h
 CMakeFiles/core.dir/Window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 
+CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../File.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../LoadFiles.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../Observer.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: ../Subject.h
@@ -972,6 +974,7 @@ CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-lin
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidgetaction.h
 CMakeFiles/core.dir/core_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwizard.h
 
+CMakeFiles/core.dir/main.cpp.o: ../File.h
 CMakeFiles/core.dir/main.cpp.o: ../LoadFiles.h
 CMakeFiles/core.dir/main.cpp.o: ../Observer.h
 CMakeFiles/core.dir/main.cpp.o: ../Subject.h

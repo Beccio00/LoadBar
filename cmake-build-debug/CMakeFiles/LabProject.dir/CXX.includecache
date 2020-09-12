@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h
+iostream
+-
+QtCore/QString
+-
+
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
 Subject.h
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Subject.h
@@ -19,6 +25,8 @@ vector
 -
 iostream
 -
+File.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h
 
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
 
@@ -43,6 +51,8 @@ Window.h
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Window.h
 QApplication
 -
+File.h
+/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
 qcoreevent.h

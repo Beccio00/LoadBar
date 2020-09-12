@@ -43,10 +43,6 @@ public:
         return fileName;
     }
 
-    const std::vector<QString> &getVector() const {
-        return vector;
-    }
-
 private:
     std::list<Observer*> observers;
 

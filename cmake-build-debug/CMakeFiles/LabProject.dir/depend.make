@@ -3,6 +3,7 @@
 
 CMakeFiles/LabProject.dir/LabProject_autogen/mocs_compilation.cpp.o: LabProject_autogen/mocs_compilation.cpp
 
+CMakeFiles/LabProject.dir/main.cpp.o: ../File.h
 CMakeFiles/LabProject.dir/main.cpp.o: ../LoadFiles.h
 CMakeFiles/LabProject.dir/main.cpp.o: ../Observer.h
 CMakeFiles/LabProject.dir/main.cpp.o: ../Subject.h
