@@ -8,8 +8,8 @@
 
 TEST(TestLoadResources, testNoFileNamesProvided) {
     std::vector<QString> vector;
-    LoadFiles loader;
-    loader.load(vector);
+    LoadFiles loader(vector);
+    loader.load();
     ASSERT_EQ(loader.getNumberFile(), 0);
 
 }
@@ -20,7 +20,7 @@ TEST(TestLoadResources, fileNamesProvided) {
     vector.push_back("esempio1");
     vector.push_back("esempio2");
     vector.push_back("esempio3");
-    LoadFiles loader;
-    loader.load(vector);
+    LoadFiles loader(vector);
+    loader.load();
     ASSERT_EQ(loader.getNumberFile(), 3);
 }

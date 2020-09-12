@@ -16,7 +16,9 @@
 class LoadFiles : public Subject{
 public:
 
-    explicit LoadFiles(std::vector<QString> v) : vector(v) {}
+    explicit LoadFiles(std::vector<QString>& v) : vector(v) {}
+
+
 
     void subscribe(Observer *o) override;
 

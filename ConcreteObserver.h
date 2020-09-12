@@ -22,6 +22,10 @@ public:
         std::cout << "Update" << std::endl;
     }
 
+    LoadFiles *getSubject() const {
+        return subject;
+    }
+
 private:
     LoadFiles* subject;
 };

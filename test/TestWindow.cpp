@@ -8,38 +8,44 @@
 #include "../Window.h"
 
 
-TEST(TestObserver, testFileName) {
-
-    LoadFiles loader;
-    Window observer(&loader);
+TEST(TestWindow, testFileName) {
 
     std::vector<QString> vector;
     vector.push_back("file.h");
-    loader.load(vector);
+
+    LoadFiles loader(vector);
+    Window observer(&loader);
+
+
+    loader.load();
 
     ASSERT_EQ(observer.getFiles()->getFileName(), "file.h");
 }
 
-TEST(TestObserver, testFileSize) {
-
-    LoadFiles loader;
-    Window observer(&loader);
+TEST(TestWindow, testFileSize) {
 
     std::vector<QString> vector;
     vector.push_back("files/Cat.jpg");
-    loader.load(vector);
+
+    LoadFiles loader(vector);
+    Window observer(&loader);
+
+
+    loader.load();
 
     ASSERT_EQ(observer.getFiles()->getSize(), 27574);
 }
 
-TEST(TestObserver, testLoaded) {
-
-    LoadFiles loader;
-    Window observer(&loader);
+TEST(TestWindow, testLoaded) {
 
     std::vector<QString> vector;
     vector.push_back("/files/Cat.jpg");
-    loader.load(vector);
+
+    LoadFiles loader(vector);
+    Window observer(&loader);
+
+
+    loader.load();
 
     ASSERT_EQ(observer.getFiles()->isLoaded(), true);
 }

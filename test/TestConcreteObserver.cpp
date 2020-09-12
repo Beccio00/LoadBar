@@ -5,6 +5,16 @@
 #include "../ConcreteObserver.h"
 #include <gtest/gtest.h>
 
-TEST(testConcreteObserver, testUpdate) {
+TEST(TestObserver, testFileName) {
 
+    std::vector<QString> vector;
+    vector.push_back("file.h");
+
+    LoadFiles loader(vector);
+    ConcreteObserver observer(&loader);
+
+
+    loader.load();
+
+    ASSERT_EQ(observer.getSubject()->getFileName(), "file.h");
 }
