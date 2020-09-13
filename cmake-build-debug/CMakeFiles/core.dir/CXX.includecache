@@ -12,12 +12,6 @@ iostream
 QtCore/QString
 -
 
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.cpp
-LoadFiles.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
-File.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h
-
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
 Subject.h
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Subject.h
@@ -57,28 +51,6 @@ iostream
 -
 Observer.h
 /home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Observer.h
-
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Window.cpp
-../../../Window.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Window.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/core_autogen/mocs_compilation.cpp
-EWIEGA46WW/moc_Window.cpp
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/cmake-build-debug/core_autogen/EWIEGA46WW/moc_Window.cpp
-
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/main.cpp
-LoadFiles.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/LoadFiles.h
-Window.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/Window.h
-QApplication
--
-File.h
-/home/beccio/Scrivania/Documenti/Documenti/Universita/Primo anno/Laboratorio di Programmazione/Elaborato/LabProject/File.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
 qcoreevent.h
@@ -3465,10 +3437,6 @@ QtGui/qwindowdefs_win.h
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
-qapplication.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCommonStyle
 qcommonstyle.h

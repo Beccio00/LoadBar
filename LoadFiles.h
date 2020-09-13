@@ -18,7 +18,7 @@ public:
 
     explicit LoadFiles(std::vector<File*>& v) : vector(v) {}
 
-    virtual ~LoadFiles() {}
+    virtual ~LoadFiles();
 
     void subscribe(Observer *o) override;
 

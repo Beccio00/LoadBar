@@ -5,6 +5,12 @@
 #include "LoadFiles.h"
 #include "File.h"
 
+LoadFiles::~LoadFiles()  {
+    for(auto it : vector){
+        delete it;
+    }
+}
+
 void LoadFiles::subscribe(Observer *o) {
     observers.push_back(o);
 }
