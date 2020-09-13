@@ -74,7 +74,7 @@ void Window::update() {
         } else {
 
             //Aggiorna  text log
-            QString log = "❌ Non è possibile caricare il files: '" + it->getFilename();
+            QString log = "❌ Non è possibile caricare il files: '" + it->getFilename() + "\n";
             text->append(log);
         }
     }
