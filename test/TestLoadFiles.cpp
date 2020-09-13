@@ -7,7 +7,7 @@
 #include "../LoadFiles.h"
 
 TEST(TestLoadResources, testNoFileNamesProvided) {
-    std::vector<QString> vector;
+    std::vector<File*> vector;
     LoadFiles loader(vector);
     loader.load();
     ASSERT_EQ(loader.getNumberFile(), 0);
@@ -16,10 +16,10 @@ TEST(TestLoadResources, testNoFileNamesProvided) {
 
 TEST(TestLoadResources, fileNamesProvided) {
 
-    std::vector<QString> vector;
-    vector.push_back("esempio1");
-    vector.push_back("esempio2");
-    vector.push_back("esempio3");
+    std::vector<File*> vector;
+    vector.push_back(new File("esempio1"));
+    vector.push_back(new File("esempio2"));
+    vector.push_back(new File("esempio3"));
     LoadFiles loader(vector);
     loader.load();
     ASSERT_EQ(loader.getNumberFile(), 3);

@@ -10,8 +10,8 @@
 
 TEST(TestWindow, testFileName) {
 
-    std::vector<QString> vector;
-    vector.push_back("file.h");
+    std::vector<File*> vector;
+    vector.push_back(new File("file.h"));
 
     LoadFiles loader(vector);
     Window observer(&loader);
@@ -19,13 +19,15 @@ TEST(TestWindow, testFileName) {
 
     loader.load();
 
-    ASSERT_EQ(observer.getFiles()->getFileName(), "file.h");
+    auto it = observer.getFiles()->getVector().begin();
+
+    ASSERT_EQ((*it)->getFilename(), "file.h");
 }
 
 TEST(TestWindow, testFileSize) {
 
-    std::vector<QString> vector;
-    vector.push_back("files/Cat.jpg");
+    std::vector<File*> vector;
+    vector.push_back(new File("files/Cat.jpg"));
 
     LoadFiles loader(vector);
     Window observer(&loader);
@@ -33,13 +35,15 @@ TEST(TestWindow, testFileSize) {
 
     loader.load();
 
-    ASSERT_EQ(observer.getFiles()->getSize(), 27574);
+    auto it = observer.getFiles()->getVector().begin();
+
+    ASSERT_EQ((*it)->getFileSize(), 27574);
 }
 
 TEST(TestWindow, testLoaded) {
 
-    std::vector<QString> vector;
-    vector.push_back("/files/Cat.jpg");
+    std::vector<File*> vector;
+    vector.push_back(new File("/files/Cat.jpg"));
 
     LoadFiles loader(vector);
     Window observer(&loader);
@@ -47,5 +51,7 @@ TEST(TestWindow, testLoaded) {
 
     loader.load();
 
-    ASSERT_EQ(observer.getFiles()->isLoaded(), true);
+    auto it = observer.getFiles()->getVector().begin();
+
+    ASSERT_EQ((*it)->isUploaded(), true);
 }

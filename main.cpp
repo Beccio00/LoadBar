@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
     v.push_back(new File("files/Fire.avi"));
     v.push_back(new File("files/Letter.txt"));
     v.push_back(new File("files/Rise.mp3"));
-    v.push_back(new File("files/Cat.jpg"));
+    v.push_back(new File("files/Cat.jpg", false));
 
     LoadFiles loader(v);
 

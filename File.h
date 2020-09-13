@@ -10,7 +10,7 @@
 
 class File {
 public:
-    explicit File(QString fN):filename(fN), fsize(random()), uploaded(true)  {};
+    explicit File(QString fN, bool u = true):filename(fN), uploaded(u), fsize(random())  {};
 
     ~File() {}
 

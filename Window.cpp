@@ -62,19 +62,19 @@ void Window::update() {
                 usleep(1000);
             }
             //Aggiorna text
-            QString log = "✅ File caricato '" + QString(it->getFilename()) + QString("' con successo (") +
+            QString log = "✅ " + QString(it->getFilename()) + QString("' caricato con successo (") +
                           QString::number(it->getFileSize()) + QString(" bytes).") + "\n";
-
             text->append(log);
 
+
             //Aggiorna text di button
-            QString percentText = QString::number(progressBar->value() / 10) + QString("%  files caricate!");
+            QString percentText = QString::number(progressBar->value() / 10) + QString("%  files caricati!");
             button->setText(percentText);
 
         } else {
 
             //Aggiorna  text log
-            QString log = "❌ Non è possibile caricare il files '" + it->getFilename();
+            QString log = "❌ Non è possibile caricare il files: '" + it->getFilename();
             text->append(log);
         }
     }
