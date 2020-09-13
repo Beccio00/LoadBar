@@ -6,9 +6,7 @@
 #include "File.h"
 
 LoadFiles::~LoadFiles()  {
-    for(auto it : vector){
-        delete it;
-    }
+    vector.clear();
 }
 
 void LoadFiles::subscribe(Observer *o) {
