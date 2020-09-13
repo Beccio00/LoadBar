@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     v.push_back(new File("files/Lion.jpg"));
     v.push_back(new File("files/House.avi"));
     v.push_back(new File("files/Bottle.jpg"));
-    v.push_back(new File("files/Elephant.jpeg"));
+    v.push_back(new File("files/Elephant.jpeg", false));
     v.push_back(new File("files/Doom.mp4"));
     v.push_back(new File("files/Gandalf.mp4"));
     v.push_back(new File("files/Fire.avi"));
