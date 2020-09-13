@@ -52,29 +52,31 @@ Window::Window(LoadFiles *f, QWidget *parent) : files(f), QMainWindow(parent) {
 
 
 void Window::update() {
+    for(auto it : files->getVector()) {
 
-    if (files->isLoaded()) {
+        if (it->isUploaded()) {
 
-        //Aggiorna progess bar
-        while (progressBar->value() < 1000) {
-            progressBar->setValue(progressBar->value() + (10 / files->getNumberFile()));
-            usleep(1000);
+            //Aggiorna progess bar
+            while (progressBar->value() < 1000) {
+                progressBar->setValue(progressBar->value() + (10 / files->getNumberFile()));
+                usleep(1000);
+            }
+            //Aggiorna text
+            QString log = "✅ File caricato '" + QString(it->getFilename()) + QString("' con successo (") +
+                          QString::number(it->getFileSize()) + QString(" bytes).") + "\n";
+
+            text->append(log);
+
+            //Aggiorna text di button
+            QString percentText = QString::number(progressBar->value() / 10) + QString("%  files caricate!");
+            button->setText(percentText);
+
+        } else {
+
+            //Aggiorna  text log
+            QString log = "❌ Non è possibile caricare il files '" + it->getFilename();
+            text->append(log);
         }
-        //Aggiorna text
-        QString log = "✅ File caricato '" + QString(files->getFileName()) + QString("' con successo (") +
-                      QString::number(files->getSize()) + QString(" bytes).") + "\n";
-        text->append(log);
-
-
-        //Aggiorna text di button
-        QString percentText = QString::number(progressBar->value() / 10) + QString("%  files caricate!");
-        button->setText(percentText);
-
-    } else {
-
-        //Aggiorna  text log
-        QString log = "❌ Non è possibile caricare il files '" + files->getFileName();
-        text->append(log);
     }
 }
 

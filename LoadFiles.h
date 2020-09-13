@@ -18,7 +18,7 @@ public:
 
     explicit LoadFiles(std::vector<File*>& v) : vector(v) {}
 
-
+    virtual ~LoadFiles() {}
 
     void subscribe(Observer *o) override;
 
@@ -28,21 +28,17 @@ public:
 
     void load();
 
-    int getSize() const {
-        return size;
-    }
 
-    bool isLoaded() const {
-        return loaded;
-    }
+
 
 
     int getNumberFile() const {
         return numberFile;
     }
 
-    const QString &getFileName() const {
-        return fileName;
+
+    const std::vector<File *> &getVector() const {
+        return vector;
     }
 
 private:
@@ -50,10 +46,9 @@ private:
 
     std::vector<File*> vector;
 
-    int size;
-    bool loaded;
+
     int numberFile;
-    QString fileName;
+
 };
 
 
