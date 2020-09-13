@@ -16,7 +16,7 @@
 class LoadFiles : public Subject{
 public:
 
-    explicit LoadFiles(std::vector<QString>& v) : vector(v) {}
+    explicit LoadFiles(std::vector<File*>& v) : vector(v) {}
 
 
 
@@ -48,7 +48,7 @@ public:
 private:
     std::list<Observer*> observers;
 
-    std::vector<QString> vector;
+    std::vector<File*> vector;
 
     int size;
     bool loaded;

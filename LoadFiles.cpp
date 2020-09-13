@@ -25,10 +25,9 @@ void LoadFiles::load() {
     numberFile = static_cast<int>(vector.size());
 
     for (auto itr : vector) {
-        File file(itr);
-        fileName = file.getFilename();
-        size = file.getFileSize();
-        loaded = file.isUploaded();
+        fileName = itr->getFilename();
+        size = itr->getFileSize();
+        loaded = itr->isUploaded();
         notify();
     }
 }
